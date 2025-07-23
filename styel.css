@@ -209,7 +209,7 @@ main {
 
     .card-container {
         grid-template-columns: repeat(2, 1fr);
-        gap: 28px 20px;
+        gap: 28px 30px;
         place-items: center;
 
     }
