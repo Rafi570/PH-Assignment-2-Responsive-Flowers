@@ -16,6 +16,10 @@ body {
 
     background-color: #F5F8FF;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .dark {
     color: rgba(0, 0, 0, 0.5);
@@ -92,9 +96,34 @@ body {
 .banner-des {
     font-size: 1.37rem;
     color: rgba(0, 0, 0, 0.5);
+
 }
 
 .banner-section img {
-    max-width: 570px;
+
     width: 100%;
+}
+
+
+
+/* For Mobile device  */
+@media screen and (max-width: 576px) {
+    .disply{
+        display: none;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+
+    .banner-title{
+        font-size: 1.5rem;
+        margin-bottom: 13px;
+    }
+
+    .left-banner,
+    .nav-bar{
+        padding: 28px 16px;
+
+    }
+
 }
