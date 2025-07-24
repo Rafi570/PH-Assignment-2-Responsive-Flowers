@@ -11,13 +11,14 @@
 
 /* Share Class */
 body {
-    max-width: 1440px;
-    margin: 0 auto;
+    /* max-width: 1440px;
+    margin: 0 auto; */
 
     background-color: #F5F8FF;
 }
 
-main {
+
+.width{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -25,6 +26,7 @@ main {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .dark {
@@ -82,7 +84,7 @@ main {
 /* Banner section */
 .banner-section {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     margin-top: 120px;
     max-width: 1140px;
@@ -140,7 +142,7 @@ main {
 }
 
 .card {
-    width: 270px;
+    /* width: 270px; */
 }
 
 .card-container {
@@ -167,9 +169,7 @@ main {
     text-align: center;
 }
 
-.card img {
-    width: 100%;
-}
+
 
 /* plants-lover */
 .plants-lover{
@@ -184,13 +184,15 @@ main {
     font-size: 1.37rem;
 }
 .right-lover{
-    max-width: 540px;
+    width: 540px;
+    height: 521px;
 }
 .plants-lover{
     margin-top: 220px;
 }
 .plants-lover-image img{
     width: 100%;
+    width: 540px;
 
 }
 
@@ -209,6 +211,24 @@ main {
     font-size: 3.12rem;
 }
 
+
+/* latest-area */
+.latest-area{
+    margin: 133px 0;
+
+}
+.latest-area h1{
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+.latest-area p{
+    margin: 0 auto;
+    max-width: 888px;
+    text-align: center;
+    font-size: 1.37rem;
+}
+
 /* For Mobile device  */
 @media screen and (max-width: 576px) {
     .disply {
@@ -225,7 +245,7 @@ main {
     }
 
     .left-banner,
-    .nav-bar {
+    .nav-bar,.latest-area {
         padding: 28px 16px;
 
     }
@@ -284,6 +304,27 @@ main {
     .lover-des{
         font-size: 0.87rem;
         margin-top: 15px;
+    }
+    .plants-lover-image img{
+        width: 358px;
+    }
+    .right-lover{
+        width: 361px;
+        height: 234px;
+    }
+
+
+    /* latest-area */
+    .latest-area{
+        margin: 100px 0;
+    }
+
+    .latest-area h1{
+        font-size: 1.5rem;
+
+    }
+    .latest-area p{
+        font-size: .87rem;
     }
 
 }
