@@ -326,6 +326,54 @@ body {
     color: white;
 }
 
+/* input-section */
+.input-section {
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.bg-inp {
+    padding: 199px 305px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+
+    background-image: url(./assets/news-letter-bg.png);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-inp h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3.25rem;
+}
+
+.bg-inp input {
+    margin: 0 auto;
+    margin-top: 20px;
+    /* display: block; */
+    padding: 21px;
+    border: none;
+    width: 644px;
+    border-radius: 10px;
+}
+
+.btn2 {
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 19px 80px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
 /* For Mobile device  */
 @media screen and (max-width: 576px) {
     .disply {
@@ -433,11 +481,12 @@ body {
     }
 
     /* grid-bd section */
-    .grid-bg{
-        margin-top:0
+    .grid-bg {
+        margin-top: 0
     }
+
     .container-bg {
-    
+
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         place-items: center;
@@ -474,6 +523,33 @@ body {
     .grid-title-3,
     .grid-title1-2 {
         font-size: 1.25rem;
+    }
+
+    /* input-section */
+    .input-section{
+        margin-top: 50px;
+    }
+
+
+
+    .bg-inp {
+        padding: 50px;
+    }
+
+    .bg-inp input {
+        width: 220px;
+        padding: 15px;
+
+    }
+    .bg-inp h1{
+        font-size: 1.25rem;
+    }
+   
+
+    .btn2 {
+        padding: 19px 30px;
+        font-size: 1rem;
+        margin-top: 15px;
     }
 
 
