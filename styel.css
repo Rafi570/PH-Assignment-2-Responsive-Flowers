@@ -401,6 +401,10 @@ footer ul{
     line-height: 50px;
 }
 
+footer li{
+    list-style: none;
+}
+
 /* For Mobile device  */
 @media screen and (max-width: 576px) {
     .disply {
