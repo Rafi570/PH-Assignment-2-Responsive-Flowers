@@ -451,12 +451,14 @@ footer li{
 
     .card {
         /* width: 171px; */
+        
     }
 
     .btn-prymary {
         padding: 19px 30px;
         font-size: 1rem;
         margin-top: 15px;
+        width: 100%;
     }
 
     .card-title {
