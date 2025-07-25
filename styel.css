@@ -239,6 +239,26 @@ body {
     font-size: 1.37rem;
 }
 
+/* grid-bd */
+/* .container-bg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 25% 70%;
+}
+
+.grid1{
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+}
+.grid2{
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+}
+.grid3{
+    background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+} */
+
 .container-bg {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -430,12 +450,12 @@ footer li{
     }
 
     .card {
-        /* width: 171px; */
+        width: 171px;
     }
 
     .btn-prymary {
         padding: 19px 30px;
-        font-size: 0.87rem;
+        font-size: 1rem;
         margin-top: 15px;
     }
 
